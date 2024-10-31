@@ -1,6 +1,7 @@
 [user]
 	user = aemirbosnak
 	email = emir.bosnak@ug.bilkent.edu.tr
+	name = emir
 [core]
 	editor = vim
 [init]
