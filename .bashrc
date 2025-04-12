@@ -104,7 +104,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -lahF'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -135,3 +135,17 @@ fi
 # Git branch status on terminal prompt
 export PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;33m\]$(__git_ps1)\[\033[00m\]$ '
 
+#PyCharm
+export PATH="{/home/emir/pycharm-2023.3.3/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Go installation
+export PATH=$PATH:/usr/local/go/bin
+
+# nvim alias
+alias vim="/usr/bin/nvim"
+alias vi="/usr/bin/nvim"
+alias oldvim="/usr/bin/vim"
